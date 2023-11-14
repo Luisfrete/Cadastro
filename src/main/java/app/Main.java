@@ -51,7 +51,7 @@ public class Main {
 
     private static void menuLogin(Scanner scanner) throws SQLException {
         while (true) {
-            System.out.println("\nMenu Livro:");
+            System.out.println("\nMenu Login:");
             System.out.println("1. Adicionar Login");
             System.out.println("2. Atualizar Login");
             System.out.println("3. Listar Login");
@@ -71,12 +71,12 @@ public class Main {
                     atualizar();
                     break;
                 case 3:
-                    System.out.println("Aqui estão todos os livros.");
+                    System.out.println("Aqui estão todos os login.");
                     visualizar();
                     break;
                 case 4:
                     remover();
-                    System.out.println("Livro excluido com sucesso.");
+                    System.out.println("Login excluido com sucesso.");
                     break;
                 default:
                     System.out.println("Opção inválida. Tente novamente.");
